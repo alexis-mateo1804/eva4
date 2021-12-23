@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #dfe21f;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card{
+  border-width: 7px;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: green;
+  overflow: hidden;
+  padding: 6px;
+  margin: 15px;
+}
+
+.App-logo{
+  border-radius: 50%;
+}
+
+.info{
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 14px;
+  background:white;
+  color: black;
 }
